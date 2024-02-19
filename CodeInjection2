@@ -3,7 +3,6 @@
 #include "tchar.h"
 
 
-
 typedef struct _THREAD_PARAM {
 	FARPROC pFunc[2];		//LoadLibraryA,GetProcAddress
 }THREAD_PARAM, * PTHREAD_PARAM;
